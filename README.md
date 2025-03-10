@@ -45,4 +45,4 @@ streamlit run app.py
 Esto abrirá la aplicación en tu navegador predeterminado. Si realizas cambios en el código, deberás reiniciar la aplicación o refrescar la página para verlos reflejados.
 
 ## Despliegue
-El despliegue de esta aplicación se realizó a través de **Render.com**.
+El despliegue de esta aplicación se realizó a través de **Render.com**. Se puede encontrar en el siguiente link **https://sprint7-cvl-vehiculos-usados.onrender.com**
