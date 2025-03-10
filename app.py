@@ -17,7 +17,7 @@ if build_histogram:
     st.write('Creación de un histograma para el conjunto de datos de anuncios de venta de coches')
     
     # Create a histogram
-    fig = px.histogram(car_data, x="odometer", title='Frecuencia de Vehiculos por Kilometraje')
+    fig = px.histogram(car_data, x="Kilometraje", title='Frecuencia de Vehiculos por Kilometraje')
     
     # Display the Plotly chart
     st.plotly_chart(fig, use_container_width=True)
@@ -27,7 +27,7 @@ if build_scatter:
     st.write('Creación de un gráfico de dispersión para el conjunto de datos de anuncios de venta de coches')
     
     # Create a scatter plot
-    fig = px.scatter(car_data, x="odometer", y="price", title='Relación entre kilometraje y precio')
+    fig = px.scatter(car_data, x="Kilometraje", y="Precio", title='Relación entre kilometraje y precio')
     
     # Display the Plotly chart
     st.plotly_chart(fig, use_container_width=True)
